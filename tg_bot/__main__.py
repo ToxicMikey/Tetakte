@@ -132,12 +132,12 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_text(
-                PM_START_TEXT.format(escape_markdown(bot.first_name)), parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup( [[InlineKeyboardButton(text="➕ Add Me to Your Group ➕", 
+                PM_START_TEXT.format(escape_markdown(bot.first_name)), parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="➕ Add Me to Your Group ➕", 
                                                                                                                                                  url="t.me/{}?startgroup=true".format(bot.username)), 
                                                                                                                                                   InlineKeyboardButton(text="🎲 Command",
-                                                                                                                                                 callback_data="help_back".format(bot.username),
+                                                                                                                                                 callback_data="help_back".format(bot.username)),
                                                                                                                                                   InlineKeyboardButton(text="🎁 Source Code",
-                                                                                                                                                 url="https://github.com/RSR-TG-Info/Tetakte"))]]))
+                                                                                                                                                 url="https://github.com/RSR-TG-Info/Tetakte")]])
                 
     else:
         update.effective_message.reply_text("waked up😏😏😏")
