@@ -20,7 +20,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 Hi...I'm here to help you manage your groups! Hit 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 button to find out more about how to use me to my full potential.
 
-Join my Group @mizolibrary to get information on all the latest updates.
+Join my Channel @mizolibrary to get information on all the latest updates.
 
 """
 
@@ -136,7 +136,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, 
                 disable_web_page_preview=True, 
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="➕ Add Me ➕", url="t.me/{}?startgroup=true".format(bot.username)), 
+                    [[InlineKeyboardButton(text="➕ Add Me", url="t.me/{}?startgroup=true".format(bot.username)), 
                       InlineKeyboardButton(text="🎲 Command", url="https://t.me/{}?start=help".format(bot.username)),
                       InlineKeyboardButton(text="🎁 Source", url="https://github.com/RSR-TG-Info/Tetakte")]]))
                 
