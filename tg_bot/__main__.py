@@ -137,7 +137,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                                                                                                   InlineKeyboardButton(text="🎲 Command",
                                                                                                                                                  callback_data="help_back".format(bot.username),
                                                                                                                                                   InlineKeyboardButton(text="🎁 Source Code",
-                                                                                                                                                 url="https://github.com/RSR-TG-Info/Tetakte")]]))
+                                                                                                                                                 url="https://github.com/RSR-TG-Info/Tetakte"))]]))
                 
     else:
         update.effective_message.reply_text("waked up😏😏😏")
