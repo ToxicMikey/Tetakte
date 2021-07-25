@@ -5,9 +5,12 @@
     "logo": "https://1.bp.blogspot.com/-VHeSH8Y5BMU/YF73lDzkUMI/AAAAAAAAARY/r9wFnWbjcWcGjFKGwpWMnpcTCdUt-Ue-wCLcBGAsYHQ/s700/original%2B%25281%2529.jpg",
   "keywords": [
     "telegram",
-    "best",
+    "Tetakte",
     "group",
     "manager",
+    "Telegram group manager",
+    "Telegram group bot",
+    "Telegeam group admin bot",
     "3"
   ],
   "repository": "https://github.com/RSR-TG-Info/Tetakte",
@@ -18,7 +21,7 @@
     },
     "TOKEN": {
       "description": "Your bot token, as a string.",
-      "value": "1748849417:AAEgXw1McZEcZndKyirEu_gk3QKWqj-gAsQ"
+      "value": ""
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
