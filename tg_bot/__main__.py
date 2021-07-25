@@ -37,8 +37,9 @@ Hello! my name is *{}*.
    ◔ in PM: will send you your settings for all supported modules.
    ◔ in a Group: will redirect you to pm, with all that chat's settings.
 
+{}
 All commands can be used with the following: / or !
-
+""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else"🎉")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 It took lots of work for [my creator](t.me/rsrmusic) to get me to where I am now, and every donation helps \
