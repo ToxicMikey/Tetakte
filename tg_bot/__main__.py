@@ -20,9 +20,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 Hi...I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
 
-Join my Group @rsrtginfo to get information on all the latest updates.
-
-Min hmandan tur hi English vek a hrilhfiah anih avang hian harsatna i neih theih avangin a chung a  𝗿𝘀𝗿𝘁𝗴𝗶𝗻𝗳𝗼  tih hi click la join rawh,harsatna te i thlen thei ang,chuan /help tih hi click la ka hnathawh theih te i chhiar thei ang.
+Join my Group @mizolibrary to get information on all the latest updates.
 
 """
 
