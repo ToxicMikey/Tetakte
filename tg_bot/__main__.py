@@ -136,9 +136,9 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, 
                 disable_web_page_preview=True, 
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="➕ Add Me ➕", url="t.me/{}?startgroup=true".format(bot.username))], 
-                     [InlineKeyboardButton(text="🎲 Command", url="https://t.me/{}?start=help".format(context.bot.username))],
-                     [InlineKeyboardButton(text="🎁 Source", url="https://github.com/RSR-TG-Info/Tetakte")]]))
+                    [[InlineKeyboardButton(text="➕ Add Me ➕", url="t.me/{}?startgroup=true".format(bot.username)), 
+                      InlineKeyboardButton(text="🎲 Command", url="https://t.me/{}?start=help".format(context.bot.username)),
+                      InlineKeyboardButton(text="🎁 Source", url="https://github.com/RSR-TG-Info/Tetakte")]]))
                 
     else:
         update.effective_message.reply_text("waked up😏😏😏")
