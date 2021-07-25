@@ -132,7 +132,7 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_text(
-                PM_START_TEXT.format(escape_markdown(bot.first_name)), escape_markdown(context.bot.first_name), OWNER_ID),
+                PM_START_TEXT.format(escape_markdown(bot.first_name)), escape_markdown(context.bot.first_name),
                 parse_mode=ParseMode.MARKDOWN, 
                 disable_web_page_preview=True, 
                 reply_markup=InlineKeyboardMarkup(
