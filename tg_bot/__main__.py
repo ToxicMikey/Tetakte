@@ -18,7 +18,7 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hi...I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
+Hi...I'm here to help you manage your groups! Hit 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 button to find out more about how to use me to my full potential.
 
 Join my Group @mizolibrary to get information on all the latest updates.
 
@@ -132,8 +132,12 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_text(
-                PM_START_TEXT.format(escape_markdown(bot.first_name)), parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="➕ Add Me to Your Group ➕", url="t.me/{}?startgroup=true".format(bot.username)), 
-                                                                                                                                                  InlineKeyboardButton(text="🎁 Source Code", url="https://github.com/RSR-TG-Info/Tetakte")]]]))
+                PM_START_TEXT.format(escape_markdown(bot.first_name)), parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="➕ Add Me to Your Group ➕", 
+                                                                                                                                                 url="t.me/{}?startgroup=true".format(bot.username)), 
+                                                                                                                                                  InlineKeyboardButton(text="🎲 Command",
+                                                                                                                                                 callback_data="help_back".format(bot.username)],
+                                                                                                                                                  InlineKeyboardButton(text="🎁 Source Code",
+                                                                                                                                                 url="https://github.com/RSR-TG-Info/Tetakte")]]))
                 
     else:
         update.effective_message.reply_text("waked up😏😏😏")
