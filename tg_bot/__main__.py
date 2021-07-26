@@ -137,8 +137,8 @@ def start(bot: Bot, update: Update, args: List[str]):
                 disable_web_page_preview=True, 
                 reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="➕ Add Me ➕", url="t.me/{}?startgroup=true".format(bot.username)), 
-                      InlineKeyboardButton(text="🎲 Command 🎲", url="https://t.me/{}?start=help".format(bot.username)),
-                      InlineKeyboardButton(text="🎁 Source 🎁", url="https://github.com/RSR-TG-Info/Tetakte")]]))
+                      InlineKeyboardButton(text="🎲 Command", url="https://t.me/{}?start=help".format(bot.username)),
+                      InlineKeyboardButton(text="🎁 Source", url="https://github.com/RSR-TG-Info/Tetakte")]]))
                 
     else:
         update.effective_message.reply_text("I'm Alive😊")
