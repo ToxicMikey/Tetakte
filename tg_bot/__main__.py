@@ -18,9 +18,9 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hi...I'm here to help you manage your groups! Hit 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 button to find out more about how to use me to my full potential.
+Hi...I'm here to help you manage your groups! Hit 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 button and start to find out more about how to use me to my full potential.
 
-Join my Channel @mizolibrary to get information on all the latest updates.
+Join our Channel @mizolibrary to get information on all the latest updates.
 
 """
 
