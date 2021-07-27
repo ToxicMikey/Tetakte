@@ -58,7 +58,7 @@ def music(bot: Bot, update: Update, args):
 		if not json2_response['error']:
 			payload = json2_response['payload']
 
-			info = '*{0}* \nUploaded by @AnonymousD3061'.format(payload['fulltitle'])
+			info = '*{0}* \nUploaded by @tereuhte_bot'.format(payload['fulltitle'])
 
 			try:
 				
@@ -66,14 +66,14 @@ def music(bot: Bot, update: Update, args):
 				count += 1
 				print("\033[1m\033[96m" + "Download count: " + str(count) + "\033[0m")
 			except:
-				bot.send_message(chat_id=chatId, text='Something went wrong with the download..!\nPlease Report there @AnonymousD3061')
+				bot.send_message(chat_id=chatId, text='Something went wrong with the download..!\nPlease Report there @helptereuhte')
 
 
 __help__ = """ Youtube audio Downloader
- - /music <Youtube link> : download audio file from youtube link.
+ - /song <Youtube link> : download audio file from youtube link.
 
 """
-__mod_name__ = "MP3 DOWNLOADER" 
+__mod_name__ = "Download" 
 
 music_handler = CommandHandler('music', music, pass_args=True)
 dispatcher.add_handler(music_handler)
