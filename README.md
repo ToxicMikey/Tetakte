@@ -1,14 +1,14 @@
 # Tetakte
-A modular telegram Python bot running on python3 with an sqlalchemy database.
+Một bot Python điện tín mô-đun chạy trên python3 với cơ sở dữ liệu sqlalchemy.
 
-Originally a simple group management bot with multiple admin features, it has evolved, becoming extremely modular and 
-simple to use.
+Ban đầu là một bot quản lý nhóm đơn giản với nhiều tính năng quản trị, nó đã phát triển, trở nên cực kỳ mô-đun và
+Đơn giản để sử dụng.
 
-Can be found on telegram as [Tetakte](https://t.me/tereuhte_bot).
+Có thể tìm thấy trên điện tín như [Tetakte](https://t.me/tereuhte_bot).
 
-Tereuhte and I are moderating a [support group](https://t.me/rsrtginfo), where you can ask for help setting up your
-bot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. Of course
-I'll also help when a database schema changes, and some table column needs to be modified/added. Note to maintainers that all schema changes will be found in the commit messages, and its their responsibility to read any new commits.
+Tereuhte và tôi đang kiểm duyệt [nhóm hỗ trợ](https://t.me/rsrtginfo), nơi bạn có thể yêu cầu trợ giúp thiết lập
+bot, khám phá / yêu cầu các tính năng mới, báo cáo lỗi và luôn cập nhật bất cứ khi nào có bản cập nhật mới. Tất nhiên
+Tôi cũng sẽ trợ giúp khi lược đồ cơ sở dữ liệu thay đổi và một số cột trong bảng cần được sửa đổi / thêm vào. Lưu ý với những người bảo trì rằng tất cả các thay đổi lược đồ sẽ được tìm thấy trong các thông báo cam kết và trách nhiệm của họ là phải đọc bất kỳ cam kết mới nào.
 
 Join the [channel](https://t.me/mizolibrary) if you just want to stay in the loop about new features or
 announcements.
